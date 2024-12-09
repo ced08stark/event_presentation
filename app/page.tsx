@@ -30,7 +30,7 @@ export default function Home() {
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
-                <h2 className="text-white text-xl font-bold">
+                <h2 className="text-white text-xl text-center font-bold">
                   NDOLLE CITY PROMOTE & RENCONTRE B2B{" "}
                 </h2>
               </div>
@@ -60,7 +60,7 @@ export default function Home() {
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
-                <h2 className="text-white text-xl font-bold">
+                <h2 className="text-white text-xl text-center font-bold">
                   RECHERCHE D{"'"}EMPLOI
                 </h2>
               </div>
@@ -89,7 +89,7 @@ export default function Home() {
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
-                <h2 className="text-white text-xl font-bold">
+                <h2 className="text-white text-center text-xl font-bold">
                   CONCERT NDOLLE CITY
                 </h2>
               </div>
