@@ -31,20 +31,20 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
                 <h2 className="text-white text-xl font-bold">
-                  NDOLLE CITY PROMOTE{" "}
+                  NDOLLE CITY PROMOTE & RENCONTRE B2B{" "}
                 </h2>
               </div>
             </div>
           </Link>
           <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-              NDOLLE CITY PROMOTE
+              NDOLLE CITY PROMOTE & RENCONTRE B2B
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Ceremonie officielle de presentation du programme world dream
               investment.
               <br />
-              <i>nouvelle ville ecotouristique et digitqle du cameroun</i>
+              <i>nouvelle ville ecotouristique et digitale du cameroun</i>
             </p>
             <p className="text-sm text-blue-600 mt-2 cursor-pointer">
               Cliquez pour plus d informations.
@@ -60,13 +60,15 @@ export default function Home() {
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
-                <h2 className="text-white text-xl font-bold">Rencontre B&B</h2>
+                <h2 className="text-white text-xl font-bold">
+                  RECHERCHE D{"'"}EMPLOI
+                </h2>
               </div>
             </div>
           </Link>
           <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-              Rencontre B&B
+              RECHERCHE D{"'"}EMPLOI
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               REJOIGNEZ NOUS ET POSTULEZ POUR UN EMPLOI CHEZ IMPEX TRADING SARL
