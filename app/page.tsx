@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image"
 import concertLogo from "@/assets/images/concert.jpg";
 import foireLogo from "@/assets/images/foire.jpg";
+import btob from "@/assets/images/btob.jpg";
 
 export default function Home() {
   
@@ -19,8 +20,64 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full max-w-4xl">
-          {/* Événement : Concert */}
           <Link href="https://event.eventozor.com/9GTYHXMBN3/">
+            <div className="relative group w-full h-80 bg-gray-900 rounded-lg overflow-hidden shadow-lg cursor-pointer">
+              <Image
+                src={foireLogo}
+                alt="Concert"
+                width={600}
+                height={100}
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
+                <h2 className="text-white text-xl font-bold">
+                  NDOLLE CITY PROMOTE{" "}
+                </h2>
+              </div>
+            </div>
+          </Link>
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
+              NDOLLE CITY PROMOTE
+            </h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              Ceremonie officielle de presentation du programme world dream
+              investment.
+              <br />
+              <i>nouvelle ville ecotouristique et digitqle du cameroun</i>
+            </p>
+            <p className="text-sm text-blue-600 mt-2 cursor-pointer">
+              Cliquez pour plus d informations.
+            </p>
+          </div>
+          <Link href="https://event.eventozor.com/MZ5RNVWAEM/ ">
+            <div className="relative group w-full h-80 bg-gray-200 rounded-lg overflow-hidden shadow-lg cursor-pointer">
+              <Image
+                src={btob}
+                alt="Foire"
+                width={600}
+                height={100}
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
+                <h2 className="text-white text-xl font-bold">Rencontre B&B</h2>
+              </div>
+            </div>
+          </Link>
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
+              Rencontre B&B
+            </h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              REJOIGNEZ NOUS ET POSTULEZ POUR UN EMPLOI CHEZ IMPEX TRADING SARL
+            </p>
+            <p className="text-sm text-blue-600 mt-2">
+              Cliquez pour en savoir plus.
+            </p>
+          </div>
+
+          {/* Événement : Concert */}
+          <Link href="https://event.eventozor.com/MTAAKEQ73A/">
             <div className="relative group w-full h-80 bg-gray-900 rounded-lg overflow-hidden shadow-lg cursor-pointer">
               <Image
                 src={concertLogo}
@@ -30,13 +87,15 @@ export default function Home() {
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
-                <h2 className="text-white text-xl font-bold">Concert</h2>
+                <h2 className="text-white text-xl font-bold">
+                  CONCERT NDOLLE CITY
+                </h2>
               </div>
             </div>
           </Link>
           <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-              Concert
+              CONCERT NDOLLE CITY
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Rejoignez-nous pour une soirée musicale extraordinaire avec des
@@ -49,33 +108,6 @@ export default function Home() {
           </div>
 
           {/* Événement : Foire */}
-          <Link href="https://event.eventozor.com/9GTYHXMBN3/">
-            <div className="relative group w-full h-80 bg-gray-200 rounded-lg overflow-hidden shadow-lg cursor-pointer">
-              <Image
-                src={foireLogo}
-                alt="Foire"
-                width={600}
-                height={100}
-                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
-                <h2 className="text-white text-xl font-bold">Ndole city</h2>
-              </div>
-            </div>
-          </Link>
-          <div>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-              Ndole city
-            </h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              Plongez dans une ambiance conviviale et découvrez des produits
-              locaux, des activités pour toute la famille et bien plus encore.
-              Une occasion idéale pour se détendre et explorer.
-            </p>
-            <p className="text-sm text-blue-600 mt-2">
-              Cliquez pour en savoir plus.
-            </p>
-          </div>
         </div>
       </main>
 
