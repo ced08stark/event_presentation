@@ -25,8 +25,8 @@ export default function Home() {
               <Image
                 src={concertLogo}
                 alt="Concert"
-                width={100}
-                height={20}
+                width={600}
+                height={100}
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
