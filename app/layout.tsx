@@ -76,13 +76,13 @@ export default function RootLayout({
                 <a href="/" className="hover:text-gray-400">
                   Accueil
                 </a>
-                <a href="/about" className="hover:text-gray-400">
-                  À propos
-                </a>
-                <a href="/events" className="hover:text-gray-400">
+                <a href="/" className="hover:text-gray-400">
                   Événements
                 </a>
-                <a href="/contact" className="hover:text-gray-400">
+                <a
+                  href="https://grandimpextrading.com/"
+                  className="hover:text-gray-400"
+                >
                   Contact
                 </a>
               </div>
@@ -135,7 +135,7 @@ export default function RootLayout({
                   Événements
                 </a>
                 <a
-                  href="/contact"
+                  href="https://grandimpextrading.com/"
                   className="block px-4 py-2 text-sm hover:bg-gray-600"
                 >
                   Contact

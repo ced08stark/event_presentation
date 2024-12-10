@@ -44,10 +44,8 @@ export default function Home() {
               FORUM NDOLLE CITY
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Ceremonie officielle de presentation du programme world dream
-              investment.
-              <br />
-              <i>nouvelle ville ecotouristique et digitale du cameroun</i>
+              Découvrez en exclusivité la maquette de la ville en vous
+              inscrivant gratuitement
             </p>
             <p className="text-sm text-blue-600 mt-2 cursor-pointer">
               Cliquez pour plus d informations.
@@ -74,12 +72,17 @@ export default function Home() {
               RENCONTRE B2B
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Boostez Vos Opportunités d{"'"}Affaires
+              Entreprise saisissez l{"'"}opportunité d{"'"}affaire avec Ndolle
+              City via le processus suivant
               <br />
-              Participez à cette expérience enrichissante et donnez un nouvel
-              élan à vos projets. Les Rencontres B2B, c{"'"}est bien plus qu
-              {"'"}un simple échange : c{"'"}est l{"'"}opportunité de créer un
-              véritable réseau d{"'"}affaires durable.
+              <ul>
+                <li>Inscrivez-vous</li>
+                <li>Choisissez le thème dans la rubrique « Entreprises »</li>
+                <li>
+                  Payez votre inscription et vous recevrz votre pass pour le
+                  rendez-vous
+                </li>
+              </ul>
             </p>
             <p className="text-sm text-blue-600 mt-2 cursor-pointer">
               Cliquez pour plus d informations.
@@ -107,9 +110,9 @@ export default function Home() {
               ESPACE EXPOSANTS
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Une Opportunité Unique pour Valoriser Votre Activité ! Ne manquez
-              pas cette opportunité de dynamiser votre activité et de rencontrer
-              des acteurs clés de votre secteur.
+              Profitez de notre vitrine pour promouvoir votre entreprise,
+              choisissez la formule qui vous convient et inscrivez-vous nous
+              nous chargeons de vous recontacter rapidement
             </p>
             <p className="text-sm text-blue-600 mt-2">
               Cliquez pour plus d informations.
@@ -165,9 +168,7 @@ export default function Home() {
               CONCERT NDOLLE CITY
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Rejoignez-nous pour une soirée musicale extraordinaire avec des
-              artistes de renom. Une expérience sonore et visuelle que vous ne
-              voudrez pas manquer !
+              Soyez parmi les 1000 premieres inscrits pour bénéficier d{"'"}une place gratuitr. Au dela inscrivez-vous et obtenez votre place pour 100 XAF
             </p>
             <p className="text-sm text-blue-600 mt-2">
               Cliquez pour plus d informations.
