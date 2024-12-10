@@ -45,7 +45,7 @@ export default function Home() {
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Découvrez en exclusivité la maquette de la ville en vous
-              inscrivant gratuitement
+              inscrivant gratuitement.
             </p>
             <p className="text-sm text-blue-600 mt-2 cursor-pointer">
               Cliquez pour plus d informations.
@@ -113,7 +113,7 @@ export default function Home() {
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Profitez de notre vitrine pour promouvoir votre entreprise,
               choisissez la formule qui vous convient et inscrivez-vous<br/> nous
-              nous chargeons de vous recontacter rapidement
+              nous chargeons de vous recontacter rapidement.
             </p>
             <p className="text-sm text-blue-600 mt-2">
               Cliquez pour plus d informations.
@@ -140,7 +140,7 @@ export default function Home() {
               RECHERCHE D{"'"}EMPLOI
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              rejoignez nous et postulez pour un emploi chez impex trading sarl
+              Rejoignez nous et postulez pour un emploi chez impex trading sarl.
             </p>
             <p className="text-sm text-blue-600 mt-2">
               Cliquez pour en savoir plus.
@@ -171,7 +171,7 @@ export default function Home() {
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Soyez parmi les 1000 premiers inscrits pour bénéficier d{"'"}une
               place gratuite. Au dela inscrivez-vous et obtenez votre place pour
-              100 XAF
+              100 XAF.
             </p>
             <p className="text-sm text-blue-600 mt-2">
               Cliquez pour plus d informations.
