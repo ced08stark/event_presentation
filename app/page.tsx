@@ -1,8 +1,11 @@
 import Link from "next/link";
 import Image from "next/image"
 import concertLogo from "@/assets/images/concert.jpg";
-import foireLogo from "@/assets/images/foire.jpg";
+//import foireLogo from "@/assets/images/foire.jpg";
 import btob from "@/assets/images/btob.jpg";
+import salonLogo from "@/assets/images/salon.jpeg";
+import forumLogo from "@/assets/images/forum.jpeg";
+import exposantLogo from "@/assets/images/exposant.jpg";
 
 export default function Home() {
   
@@ -20,10 +23,10 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full max-w-4xl">
-          <Link href="https://event.eventozor.com/9GTYHXMBN3/">
+          <Link href="https://event.eventozor.com/RTWPUGKHK3/">
             <div className="relative group w-full h-80 bg-gray-900 rounded-lg overflow-hidden shadow-lg cursor-pointer">
               <Image
-                src={foireLogo}
+                src={exposantLogo}
                 alt="Concert"
                 width={600}
                 height={100}
@@ -31,14 +34,14 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
                 <h2 className="text-white text-xl text-center font-bold">
-                  NDOLLE CITY PROMOTE & RENCONTRE B2B{" "}
+                  FORUM PROMOTE{" "}
                 </h2>
               </div>
             </div>
           </Link>
           <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-              NDOLLE CITY PROMOTE & RENCONTRE B2B
+              FORUM PROMOTE
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Ceremonie officielle de presentation du programme world dream
@@ -47,6 +50,68 @@ export default function Home() {
               <i>nouvelle ville ecotouristique et digitale du cameroun</i>
             </p>
             <p className="text-sm text-blue-600 mt-2 cursor-pointer">
+              Cliquez pour plus d informations.
+            </p>
+          </div>
+          <Link href="https://event.eventozor.com/9GTYHXMBN3/">
+            <div className="relative group w-full h-80 bg-gray-900 rounded-lg overflow-hidden shadow-lg cursor-pointer">
+              <Image
+                src={salonLogo}
+                alt="Concert"
+                width={600}
+                height={100}
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
+                <h2 className="text-white text-xl text-center font-bold">
+                  RENCONTRE B2B{" "}
+                </h2>
+              </div>
+            </div>
+          </Link>
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
+              RENCONTRE B2B
+            </h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              Boostez Vos Opportunités d{"'"}Affaires
+              <br />
+              Participez à cette expérience enrichissante et donnez un nouvel
+              élan à vos projets. Les Rencontres B2B, c{"'"}est bien plus qu
+              {"'"}un simple échange : c{"'"}est l{"'"}opportunité de créer un
+              véritable réseau d{"'"}affaires durable.
+            </p>
+            <p className="text-sm text-blue-600 mt-2 cursor-pointer">
+              Cliquez pour plus d informations.
+            </p>
+          </div>
+          {/* Événement : Foire */}
+          <Link href="https://event.eventozor.com/4TT236AFJF/">
+            <div className="relative group w-full h-80 bg-gray-900 rounded-lg overflow-hidden shadow-lg cursor-pointer">
+              <Image
+                src={forumLogo}
+                alt="Concert"
+                width={600}
+                height={100}
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
+                <h2 className="text-white text-center text-xl font-bold">
+                  ESPACE EXPOSANTS
+                </h2>
+              </div>
+            </div>
+          </Link>
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
+              ESPACE EXPOSANTS
+            </h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              Une Opportunité Unique pour Valoriser Votre Activité ! Ne manquez
+              pas cette opportunité de dynamiser votre activité et de rencontrer
+              des acteurs clés de votre secteur.
+            </p>
+            <p className="text-sm text-blue-600 mt-2">
               Cliquez pour plus d informations.
             </p>
           </div>
@@ -108,8 +173,6 @@ export default function Home() {
               Cliquez pour plus d informations.
             </p>
           </div>
-
-          {/* Événement : Foire */}
         </div>
       </main>
 
