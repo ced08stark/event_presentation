@@ -34,14 +34,14 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-colors duration-500 flex items-center justify-center">
                 <h2 className="text-white text-xl text-center font-bold">
-                  FORUM PROMOTE{" "}
+                  FORUM NDOLLE CITY{" "}
                 </h2>
               </div>
             </div>
           </Link>
           <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-              FORUM PROMOTE
+              FORUM NDOLLE CITY
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Ceremonie officielle de presentation du programme world dream

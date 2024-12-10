@@ -122,14 +122,14 @@ export default function RootLayout({
                 >
                   Accueil
                 </a>
-                <a
+                {/* <a
                   href="/about"
                   className="block px-4 py-2 text-sm hover:bg-gray-600"
                 >
                   À propos
-                </a>
+                </a> */}
                 <a
-                  href="/events"
+                  href="/"
                   className="block px-4 py-2 text-sm hover:bg-gray-600"
                 >
                   Événements
