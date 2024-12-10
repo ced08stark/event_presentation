@@ -112,8 +112,8 @@ export default function Home() {
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Profitez de notre vitrine pour promouvoir votre entreprise,
-              choisissez la formule qui vous convient et inscrivez-vous<br/> nous
-              nous chargeons de vous recontacter rapidement.
+              choisissez la formule qui vous convient et inscrivez-vous
+              <br /> nous nous chargeons de vous recontacter rapidement.
             </p>
             <p className="text-sm text-blue-600 mt-2">
               Cliquez pour plus d informations.
@@ -141,7 +141,13 @@ export default function Home() {
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Rejoignez nous et postulez pour un emploi chez impex trading sarl.
+              <br />
+              <ul className="list-disc pl-5">
+                <li>Inscrivez-vous</li>
+                <li>Payez 100 XAF pour générer votre QR code d{"'"}entretien d{"'"}embauche</li>
+              </ul>
             </p>
+
             <p className="text-sm text-blue-600 mt-2">
               Cliquez pour en savoir plus.
             </p>
