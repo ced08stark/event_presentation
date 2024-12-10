@@ -72,18 +72,19 @@ export default function Home() {
               RENCONTRE B2B
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Entreprise saisissez l{"'"}opportunité d{"'"}affaire avec Ndolle
-              City via le processus suivant
+              Entreprise, saisissez l{"'"}opportunité d{"'"}affaire avec Ndolle
+              City via le processus suivant :
               <br />
-              <ul>
+              <ul className="list-disc pl-5">
                 <li>Inscrivez-vous</li>
                 <li>Choisissez le thème dans la rubrique « Entreprises »</li>
                 <li>
-                  Payez votre inscription et vous recevrz votre pass pour le
+                  Payez votre inscription et vous recevrez votre pass pour le
                   rendez-vous
                 </li>
               </ul>
             </p>
+
             <p className="text-sm text-blue-600 mt-2 cursor-pointer">
               Cliquez pour plus d informations.
             </p>
@@ -111,7 +112,7 @@ export default function Home() {
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Profitez de notre vitrine pour promouvoir votre entreprise,
-              choisissez la formule qui vous convient et inscrivez-vous nous
+              choisissez la formule qui vous convient et inscrivez-vous<br/> nous
               nous chargeons de vous recontacter rapidement
             </p>
             <p className="text-sm text-blue-600 mt-2">
@@ -139,7 +140,7 @@ export default function Home() {
               RECHERCHE D{"'"}EMPLOI
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              REJOIGNEZ NOUS ET POSTULEZ POUR UN EMPLOI CHEZ IMPEX TRADING SARL
+              rejoignez nous et postulez pour un emploi chez impex trading sarl
             </p>
             <p className="text-sm text-blue-600 mt-2">
               Cliquez pour en savoir plus.
@@ -168,7 +169,9 @@ export default function Home() {
               CONCERT NDOLLE CITY
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Soyez parmi les 1000 premieres inscrits pour bénéficier d{"'"}une place gratuitr. Au dela inscrivez-vous et obtenez votre place pour 100 XAF
+              Soyez parmi les 1000 premiers inscrits pour bénéficier d{"'"}une
+              place gratuite. Au dela inscrivez-vous et obtenez votre place pour
+              100 XAF
             </p>
             <p className="text-sm text-blue-600 mt-2">
               Cliquez pour plus d informations.
